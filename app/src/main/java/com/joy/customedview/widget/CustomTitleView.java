@@ -108,8 +108,8 @@ public class CustomTitleView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         mPaint.setColor(getResources().getColor(R.color.colorAccent));
-        canvas.drawRect(0, 0, getMeasuredWidth(), getMeasuredHeight(), mPaint);
-        mPaint.setColor(color);
+//        canvas.drawRect(0, 0, getMeasuredWidth(), getMeasuredHeight(), mPaint);
+//        mPaint.setColor(color);
         canvas.drawText(text, getWidth() / 2 - mRect.width() / 2, getHeight() / 2 - mRect.height() / 2, mPaint);
     }
 }
